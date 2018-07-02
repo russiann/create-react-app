@@ -1,0 +1,28 @@
+{
+  "name": "boiler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.2",
+    "@feathersjs/feathers": "^3.1.7",
+    "@feathersjs/rest-client": "^1.4.1",
+    "@feathersjs/socketio-client": "^1.1.0",
+    "@rematch/core": "^1.0.0-beta.4",
+    "@rematch/subscriptions": "^0.2.2",
+    "axios": "^0.18.0",
+    "feathers-offline-realtime": "^0.1.2",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "seamless-immutable": "^7.1.3",
+    "socket.io-client": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
